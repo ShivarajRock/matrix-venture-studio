@@ -1,0 +1,948 @@
+
+/* -----------------------------------css-begin------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+#top {
+  background-color: rgba(0, 20, 53, 1);
+}
+.background-1 {
+  background: linear-gradient(
+    to right,
+    rgba(0, 20, 53, 1),
+    rgba(2, 51, 132, 1)
+  );
+}
+
+/* ---------------------------------------header---------------------------------- */
+
+.header-intro{
+  max-width: 1440px;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo img {
+  width: 102px;
+  height: 94px;
+  margin-top: 19px;
+  margin-left: 136px;
+}
+
+.navbar {
+  display: flex;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+ul li {
+  list-style: none;
+  margin-top: 30px;
+}
+ul {
+  margin-right: 89px;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-top: 40px;
+}
+a {
+  font-family: "Roboto";
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+.active {
+  padding: 15px 24px;
+  background: linear-gradient(90deg, #14bbea 0%, #009dc9 100%);
+  border-radius: 8px;
+}
+
+.active a:hover{
+  color: black;
+}
+
+a:hover {
+  background: none;
+  color: rgba(20, 187, 234, 1);
+}
+
+/* -------------------------------------------------intro-1---------------------------------------------- */
+
+.matrix {
+  margin-top: 154px;
+  margin-left: 116px;
+  padding-bottom: 252px;
+}
+
+.matrix h1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  color: rgba(20, 187, 234, 1);
+  font-size: 30px;
+}
+.matrix p {
+  font-size: 65px;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: white;
+}
+
+/* ----------------------------------------------about-us- common-section------------------------------------- */
+
+.about-section-1 {
+  text-align: center;
+}
+
+#about-us-text {
+  font-family: "Open Sans";
+  font-size: 17px;
+  color: white;
+  padding-top: 78px;
+}
+#companies {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Raleway";
+  font-size: 38px;
+  color: white;
+  font-style: "raleway";
+  margin-top: 8px;
+}
+#para-1 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-top: 22px;
+  font-size: 16px;
+  color: #cccccc;
+}
+#principles {
+  margin-top: 80px;
+  font-size: 30px;
+  color: white;
+}
+
+/* -------------------------------------core-business-principles-------------------------- */
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.col3 {
+  width: 278px;
+  height: 386px;
+  text-align: center;
+  border-radius: 19px;
+}
+.puzzle {
+  background-color: rgba(255, 255, 255, 1);
+}
+.balance {
+  background-color: rgba(0, 0, 0, 1);
+}
+.plant {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hedding-1 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  margin-top: 21px;
+}
+.hedding-2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  margin-top: 21px;
+}
+.para-1 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 15px;
+}
+#principles {
+  font-family: "raleway";
+  font-weight: 600;
+  font-size: 30px;
+}
+.para-2 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(204, 204, 204, 1);
+  margin-top: 15px;
+}
+
+.col3 img {
+  margin-top: 50px;
+  height: 113px;
+  width: 107px;
+}
+
+.col3 {
+  min-width: 278px;
+  margin: 0px 16px;
+}
+
+.small-container {
+  padding-top: 104px;
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* -------------------------------------------------our-sercices--------------------------------------------- */
+
+.consulting {
+  display: flex;
+  width: 232px;
+  height: 101px;
+  margin-top: 195px;
+  margin-left: 10px;
+}
+.consulting h2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 30px;
+}
+.consulting img {
+  margin-top: 48px;
+  margin-left: 10px;
+  width: 13px;
+  height: 15px;
+}
+
+/* ---------------------------------------------components------------------------------------------------------- */
+
+/* ---------------------------------------------display-max----------------------------------------------------- */
+
+.components-section {
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.component-1 {
+  background-color: rgba(0, 0, 0, 1);
+  width: 248px;
+  height: 330px;
+  border-radius: 19px;
+  margin-top: 174px;
+  margin-left: 91px;
+}
+.component-1 h4 {
+  margin-top: 23px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 46px;
+}
+.component-1 p {
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 46px;
+  width: 174px;
+  height: 70px;
+}
+.component-1 img {
+  width: 54px;
+  height: 59px;
+  margin-top: 71px;
+  margin-left: 65px;
+  margin-right: 128px;
+}
+.component-2 {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  width: 357px;
+  height: 196px;
+  border-radius: 19px;
+  margin-top: 80px;
+}
+.component-2 img {
+  width: 48px;
+  height: 54px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.common-tag {
+  margin-left: 18px;
+}
+.common-tag h4 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 39px;
+}
+.common-tag p {
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 39px;
+  color: rgba(204, 204, 204, 1);
+}
+.component-3 {
+  background-color: rgba(255, 255, 255, 1);
+  width: 357px;
+  height: 196px;
+  border-radius: 19px;
+  margin-top: 34px;
+}
+.component-3 img {
+  width: 62px;
+  height: 62px;
+  margin-left: 41px;
+  margin-top: 20px;
+}
+
+/* -------------------------------------------------------------components2-----------------------------------------------*/
+
+.components2 {
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row-2 {
+  justify-content: center;
+}
+.component-4 {
+  background-color: white;
+  width: 248px;
+  height: 330px;
+  border-radius: 19px;
+  margin-top: 21px;
+  margin-left: 60px;
+}
+.component-4 h4 {
+  margin-top: 23px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 46px;
+}
+.component-4 p {
+  font-family: "Open Sans";
+  color: rgba(204, 204, 204, 1);
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 46px;
+  width: 174px;
+  height: 70px;
+}
+.component-4 img {
+  width: 54px;
+  height: 59px;
+  margin-top: 71px;
+  margin-left: 65px;
+  margin-right: 128px;
+}
+.component-5 {
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 32px;
+  min-width: 357px;
+  min-height: 196px;
+}
+.component-5 h4 {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+}
+.component-6 {
+  margin-left: 20px;
+  margin-top: 28px;
+}
+
+/* --------------------------------------------------corporate-finance------------------------------------------ */
+
+.background-3 {
+  background-color: rgba(0, 20, 53, 1);
+}
+
+.corporate-finance {
+  display: flex;
+  max-width: 1440px;
+  margin: auto;
+  justify-content: flex-end;
+}
+.corporate-finance-sub {
+  float: right;
+  margin-right: 170px;
+  margin-top: 80px;
+  display: flex;
+  width: 232px;
+  height: 101px;
+}
+.corporate-finance-sub h2 {
+  color: white;
+  font-family: "raleway";
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35px;
+}
+.corporate-finance-sub img {
+  margin-top: 45px;
+  margin-left: 3px;
+  width: 13px;
+  height: 15px;
+}
+
+/* ---------------------------------------------------corporate-finance-description ------------------------------------------*/
+
+.corporate-finance-description {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.description {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.description img {
+  width: 28px;
+  height: 28px;
+}
+.description p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(204, 204, 204, 1);
+  padding-left: 15px;
+  line-height: 19px;
+}
+
+.dollar-image img {
+  width: 245px;
+  height: 245px;
+  margin-left: 162px;
+  margin-top: 235px;
+}
+
+.raising-capital-section {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.raising-capital {
+  display: flex;
+  margin-left: 20px;
+  width: 232px;
+  height: 101px;
+  margin-right: 200px;
+}
+.raising-capital img {
+  margin-top: 42px;
+  margin-left: 15px;
+  width: 15px;
+  height: 18px;
+}
+.raising-capital h2 {
+  color: white;
+  font-family: "raleway";
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35px;
+}
+
+.union img {
+  width: 389px;
+  height: 326px;
+  margin-top: 138px;
+}
+
+.bulletin-2 {
+  margin-left: 188px;
+  margin-top: 150px;
+}
+
+.left-div {
+  margin-top: 117px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+/* ----------------------------------------------------process---------------------------------------- */
+
+
+/* /-------------------------process-components--------------------------- */
+
+.process-components {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.process-component-1-2 {
+  display: flex;
+}
+
+.common-style {
+  background-color: antiquewhite;
+  width: 278px;
+  height: 386px;
+  border-radius: 19px;
+}
+
+.common-style h2 {
+  color: rgba(0, 0, 0, 1);
+  width: 178px;
+  height: 40px;
+  font-family: "raleway";
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 40px;
+  margin-top: 52px;
+  margin-left: 32px;
+}
+.common-style p {
+  width: 214px;
+  height: 80px;
+  color: rgba(160, 160, 160, 1);
+  font-style: "Open Sans";
+  font-size: 15px;
+  margin-left: 32px;
+  margin-top: 41px;
+}
+
+.process-component-1 {
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 113px;
+  margin-right: 95px;
+}
+.process-component-2 {
+  background-color: rgba(0, 0, 0, 1);
+  margin-top: 113px;
+  margin-left: 73px;
+}
+.process-component-2 h2 {
+  color: white;
+}
+
+.process-component-3 {
+  background-color: rgba(0, 0, 0, 1);
+  margin-top: 59px;
+  margin-left: 85px;
+}
+
+.process-component-3 h2 {
+  color: white;
+  margin-top: 122px;
+}
+.process-component-4 h2 {
+  margin-top: 122px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.process-component-4 {
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 59px;
+}
+
+
+/* --------------------------------------------------ploygon-position --------------------------------------*/
+.sub-main-section{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.search-pencil{
+  display: flex;
+  justify-content: center;
+}
+
+.web-truck{
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------------------------------------------------polygon-sizes-------------------------------------- */
+
+.search-image img,
+.pencil-image img,
+.web-image img,
+.truck-image img{
+  width: 152px;
+  height: 165px;
+  margin: 8px;
+}
+.search-sub-image img{
+  width: 40px;
+  height: 40px;
+}
+.pencil-sub-image img{
+  width: 42px;
+  height: 42px;
+}
+.web-sub-image img{
+  width: 54px;
+  height: 54px;
+}
+.truck-sub-image img{
+  width: 70px;
+  height: 70px;
+}
+
+/* --------------------------------------------------web-truck-margin-------------------------------------- */
+.web-truck{
+  margin-left: 162px;
+}
+
+/* --------------------------------------------------web-truck-position----------------------------------- */
+
+.sub-main-section{
+  position: relative;
+}
+
+.web-truck{
+  position: absolute;
+  z-index: 100;
+  top: 140px;
+  right: 50px;
+  left: 55px;
+  bottom: 30px;
+}
+
+/* ----------------------------------------------components-polygon-position------------------------------- */
+.process-components{
+  position: relative;
+}
+
+.main-section{
+  position: absolute;
+  z-index: 100;
+  top: 370px;
+  right: 144px;
+  left: 65px;
+  bottom: 30px;
+}
+
+
+
+ /* ------------------trial-1--------------- */
+
+
+ .search-container{
+   position: relative;
+ }
+
+ .search-sub-image{
+   position: absolute;
+   z-index: 100;
+   top: 63px;
+   right: 50px;
+   left: 55px;
+   bottom: 30px;
+ }
+
+ /* -------------------trial-2--------------- */
+
+.pencil-container{
+  position: relative;
+}
+
+.pencil-sub-image{
+  position: absolute;
+  z-index: 100;
+  top: 63px;
+  right: 50px;
+  left: 55px;
+  bottom: 30px;
+}
+
+/* -------------------trial-3---------------- */
+
+.web-container{
+  position: relative;
+}
+
+.web-sub-image{
+  position: absolute;
+  z-index: 100;
+  top: 55px;
+  right: 0px;
+  left: 48px;
+  bottom: 30px;
+}
+
+/* -------------------trial-4------------------ */
+
+
+.truck-container{
+  position: relative;
+}
+
+.truck-sub-image{
+  position: absolute;
+  z-index: 100;
+  top: 45px;
+  right: 0px;
+  left: 40px;
+  bottom: 30px;
+}
+
+.contact-section {
+  padding-bottom: 120px;
+}
+
+/* --------------------------------------------------program--------------------------------------- */
+
+
+/* -------------------------------------------------program-components-1 ---------------------------*/
+
+/* -------------------------------------------------program-component-1 ---------------------------*/
+.program-components-1 {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+}
+
+.program-component-1 {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 248px;
+  height: 330px;
+  margin-top: 80px;
+  border-radius: 19px;
+  margin-left: 207px;
+}
+.square-1 {
+  background-color: white;
+  width: 77px;
+  height: 77px;
+  margin-left: 51px;
+  margin-top: 63px;
+}
+.program-component-1 h4 {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 23px;
+  width: 164px;
+  height: 53px;
+  color: white;
+  margin-top: 104px;
+  margin-left: 46px;
+}
+
+.program-component-2 {
+  width: 357px;
+  height: 196px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 19px;
+  margin-top: 208px;
+  margin-left: 32px;
+}
+.rectangle-1 {
+  width: 57px;
+  height: 46px;
+  background-color: rgba(196, 196, 196, 1);
+  margin-top: 34px;
+  margin-left: 39px;
+}
+.program-component-2 h4 {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 23px;
+  width: 288px;
+  height: 31px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 46px;
+  margin-left: 39px;
+}
+
+/* --------------------------------------------program-components-2------------------------------------------ */
+
+.program-components-2 {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.program-component-3 {
+  margin-top: 47px;
+}
+
+.program-component-4 {
+  margin-left: 32px;
+  margin-top: 30px;
+}
+.program-component-5 {
+  margin-top: 161px;
+}
+
+/* --------------------------------------------contact-section----------------------------------------------------- */
+
+.contact-section {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.left-right {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 168px;
+  width: 1145px;
+  height: 384px;
+  border-radius: 19px;
+}
+.des-sec h4 {
+  color: rgba(255, 255, 255, 1);
+  width: 132px;
+  height: 28px;
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 110px;
+}
+.des-sec h2 {
+  color: rgba(255, 255, 255, 1);
+  width: 336px;
+  height: 38px;
+  font-family: "raleway";
+  font-size: 32px;
+  line-height: 37px;
+  margin-top: 16px;
+}
+.des-sec p {
+  color: rgba(204, 204, 204, 1);
+  width: 336px;
+  height: 44px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 9px;
+}
+
+.form-right {
+  margin-top: 43px;
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 1);
+
+  border-radius: 8px;
+  margin-top: 16px;
+  border: 1px solid #cccccc;
+}
+input[type="text"] {
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 384px;
+  height: 48px;
+}
+textarea {
+  resize: none;
+  width: 384px;
+  height: 113px;
+  padding-top: 13px;
+}
+
+input[placeholder="Your Name"],
+input[placeholder="E-mail"],
+textarea {
+  color: rgba(180, 180, 180, 0.8);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 16px;
+}
+
+button {
+  width: 384px;
+  height: 54px;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    rgba(20, 187, 234, 1),
+    rgba(1, 159, 203, 1)
+  );
+  border: none;
+  margin-top: 18px;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans";
+  line-height: 21px;
+  font-weight: 700;
+}
+
+
+
+
+
+/* --------------------------------------------footer------------------------------------------ */
+
+.footer-background{
+  background-color: rgba(0, 0, 0, 1);
+  width: 100%;
+
+}
+
+.footer{
+  max-width: 1440px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  height: 81px;
+  align-items: center;
+
+}
+.copyrights p{
+  width: 499px;
+  height: 22px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color:rgba(255, 255, 255, 1);
+  line-height: 22px;
+
+}
+.social-media ul li a img{
+  display: flex;
+}
+
+.social-media img{
+  width: 24px;
+  height: 24px;
+  margin: 12px;
+
+}
